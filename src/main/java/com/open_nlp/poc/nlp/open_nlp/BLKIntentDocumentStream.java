@@ -1,4 +1,4 @@
-package com.priya.poc.nlp.open_nlp;
+package com.open_nlp.poc.nlp.open_nlp;
 
 import opennlp.tools.doccat.DocumentSample;
 import opennlp.tools.tokenize.WhitespaceTokenizer;

@@ -1,4 +1,4 @@
-package com.priya.poc.nlp.config;
+package com.open_nlp.poc.nlp.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

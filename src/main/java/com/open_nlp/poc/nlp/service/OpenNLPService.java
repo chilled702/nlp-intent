@@ -1,7 +1,6 @@
-package com.priya.poc.nlp.service;
+package com.open_nlp.poc.nlp.service;
 
-import com.priya.poc.nlp.domain.NERDomain;
-import com.priya.poc.nlp.open_nlp.OpenNLPIntentTrainer;
+import com.open_nlp.poc.nlp.open_nlp.OpenNLPIntentTrainer;
 import opennlp.tools.doccat.DocumentCategorizerME;
 import opennlp.tools.namefind.NameFinderME;
 import opennlp.tools.tokenize.Tokenizer;
@@ -12,7 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 

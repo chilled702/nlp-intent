@@ -1,6 +1,6 @@
-package com.priya.poc.nlp.open_nlp;
+package com.open_nlp.poc.nlp.open_nlp;
 
-import com.priya.poc.nlp.domain.NERDomain;
+import com.open_nlp.poc.nlp.domain.NERDomain;
 import opennlp.tools.doccat.DoccatFactory;
 import opennlp.tools.doccat.DoccatModel;
 import opennlp.tools.doccat.DocumentCategorizerME;
@@ -9,7 +9,6 @@ import opennlp.tools.namefind.*;
 import opennlp.tools.util.*;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
-import org.springframework.context.event.ContextStartedEvent;
 import org.springframework.stereotype.Component;
 
 import java.io.File;

@@ -1,4 +1,4 @@
-package com.priya.poc.nlp.domain;
+package com.open_nlp.poc.nlp.domain;
 
 import opennlp.tools.doccat.DoccatModel;
 import opennlp.tools.doccat.DocumentCategorizerME;
